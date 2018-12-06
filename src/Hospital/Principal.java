@@ -5,7 +5,7 @@
  */
 package Hospital;
 
-import Vistas.Vista_Pacientes;
+import Vistas.Menu;
 
 /**
  *
@@ -15,8 +15,9 @@ public class Principal
 {
     public static void main(String args[])
     {
-        Vista_Pacientes x = new Vista_Pacientes();
+        Menu x = new Menu();
         x.setVisible(true);
+        x.setLocationRelativeTo(null);
     }
     
 }
